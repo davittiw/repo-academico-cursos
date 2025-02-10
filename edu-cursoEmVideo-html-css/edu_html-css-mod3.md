@@ -55,6 +55,9 @@ TABLE = TABELA
 - criando um "col" para cada uma das minhas COLUNAS, adicionando um class em cada uma delas e a partir disso, terei uma configuração flexivel de colunas que podem ser estilizadas no CSS.
 - adicionando "span=""" ao col, podemos fazer uma expansão do número de colunas selecionadas (numeros) sem precisar declara-las uma por uma.
 
+#### Responsividade de tabelas
+- overflow-x: auto => conteúdo que transborda
+
  ### Shorthand
 - font: style, weight, size, family.
 - background: color, image, position, repeat, size, attachment.
