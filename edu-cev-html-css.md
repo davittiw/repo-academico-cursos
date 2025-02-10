@@ -37,8 +37,8 @@ TABLE = TABELA
 - transform: aplica qualquer tranformação (inclui rotação) em uma caixa.
 
  ### Tabelas
-- "<tr>" -> table row.
-- "<td>" -> table data.
+- "tr" -> table row.
+- "td" -> table data.
 - border-collapse: collapse -> tira o espaçamento entre bordas.
 
 **alinhamento vertical**
@@ -52,7 +52,7 @@ TABLE = TABELA
 - scope: col // colgroup // row // rowgroup => indica o agrupamento de itens em uma tabela .
 
 #### Colgroup, a tag
-- criando um "<col>" para cada uma das minhas COLUNAS, adicionando um class em cada uma delas e a partir disso, terei uma configuração flexivel de colunas que podem ser estilizadas no CSS.
+- criando um "col" para cada uma das minhas COLUNAS, adicionando um class em cada uma delas e a partir disso, terei uma configuração flexivel de colunas que podem ser estilizadas no CSS.
 - adicionando "span=""" ao col, podemos fazer uma expansão do número de colunas selecionadas (numeros) sem precisar declara-las uma por uma.
 
  ### Shorthand
