@@ -1,4 +1,4 @@
- # Apendizados adquiridos do curso de HTML e CSS do professor Guanabara - Curso em vídeo.
+ # Apendizados adquiridos do curso de HTML e CSS do professor Guanabara - Curso em vídeo (módulo 3)
 - Por que aprender?
 sinto que preciso relembrar e exercitar meus aprendizados passados revendo esse curso. como esses conceitos são a base da programação, acho interessante reforçar a minha base nelas.
 
