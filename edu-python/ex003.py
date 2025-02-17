@@ -1,0 +1,6 @@
+n = input('digite algo: ')
+print('seu tipo ptimitivo é: ', type(n))
+print('é numerico?',n.isnumeric())
+print('é alfabeto?',n.isalpha())
+print('é alfanumerico?',n.isalnum())
+print('está em capslock?',n.isupper())

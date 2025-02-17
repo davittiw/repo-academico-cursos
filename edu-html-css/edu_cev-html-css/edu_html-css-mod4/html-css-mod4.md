@@ -45,6 +45,11 @@
 - display: inline-block;
 
 ### Medias Queries
+
 #### Media feature
 - media="screen and (orientation: portrait/landscape)"
 - media="all" => para todas as telas
+
+**Estudar typical device breakpoints**
+
+#### Menu responsivo
