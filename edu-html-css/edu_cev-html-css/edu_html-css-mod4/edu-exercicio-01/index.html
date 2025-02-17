@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
     <title>Testanto Responsividade</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-        <menu>
-            <h1>Testando navbar</h1>
+        <h1>Meu Site</h1>
+        <span id="menu-bg" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+
+        <menu id="items">
             <ul>
                 <li><a href="">Opção 3</a></li>
                 <li><a href="">Opção 2</a></li>
@@ -25,5 +29,23 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cumque cupiditate, doloribus porro commodi beatae error accusamus libero natus quidem amet exercitationem iusto unde ex ipsam incidunt explicabo blanditiis nam voluptatem tempore temporibus voluptatibus laudantium, odio architecto! Aliquam cum eveniet vitae ratione impedit labore praesentium facere voluptas. Esse fugit aperiam ullam? Voluptas harum veniam maxime possimus architecto quisquam, explicabo reprehenderit praesentium error! Quis nobis quasi temporibus eligendi assumenda illo, placeat ullam est libero iure ab dolore quae saepe et perferendis eum repellendus ea veritatis fugit eaque? Reprehenderit corrupti debitis distinctio. Itaque voluptatum dolor odio illo ipsam, impedit sunt voluptas repudiandae exercitationem officiis fuga vitae provident ea minus sequi qui eaque eveniet quos nulla ex adipisci id rerum sint similique? Cum eum non voluptatem ducimus, iste aperiam praesentium quod quis impedit hic molestiae a nam temporibus officia ab? Culpa modi alias, quae obcaecati ratione impedit quidem repudiandae necessitatibus voluptas quis magni perspiciatis iusto mollitia a harum magnam beatae consectetur voluptates! Harum, deserunt assumenda minima laboriosam quam hic. Accusamus illum quaerat suscipit aperiam explicabo minima sequi unde rem magni maiores quasi voluptate, quisquam ex consequuntur rerum debitis voluptates ipsam quidem at, sit quam veritatis enim perspiciatis iure. Architecto facere, tenetur odio quaerat neque quas fugit. Ipsum eaque rerum velit tempore. Doloremque nostrum magnam et aperiam officiis molestias quis corrupti consequuntur distinctio ducimus inventore, totam optio non sunt provident blanditiis cupiditate accusantium. Veritatis veniam maiores error nostrum optio culpa dolore tempore repudiandae. Maiores temporibus quam aperiam ipsa saepe quae eos, quo eaque provident earum, atque ad cum, fugiat nihil sint facilis porro necessitatibus. Dignissimos nam commodi porro, possimus beatae quas veritatis eius maxime repudiandae, eaque quaerat deleniti dolores hic saepe et sint ipsam nisi iusto? Ullam accusamus quisquam odio sit inventore amet placeat perspiciatis consequuntur. Facilis, voluptatem ut sapiente asperiores quia enim. Modi maxime itaque vitae mollitia cupiditate quas nisi odio magnam laboriosam necessitatibus. Maxime itaque laborum consequatur voluptates eveniet nostrum quam commodi, consectetur repudiandae iusto minima quas sunt magnam voluptatem laudantium architecto. Et repudiandae quaerat ratione quos, nisi consequuntur natus voluptatibus aspernatur reiciendis! Accusamus neque, qui possimus tempora reprehenderit impedit rerum dolorem minus nam magnam, nesciunt dolorum dolore expedita nisi consectetur et? Ut tenetur eveniet, doloribus magni repudiandae molestias ducimus incidunt similique! Est doloremque labore quod quaerat harum debitis non. Soluta dolorem ex cum architecto placeat animi nobis inventore nam illum dolorum molestiae provident eaque quia numquam veniam libero, ullam ipsa maiores? Mollitia esse nam nesciunt ad sit praesentium modi laboriosam, perspiciatis explicabo repudiandae iste nihil, tempore nisi facere dolore nostrum impedit labore quae. Accusantium cupiditate optio et ex rem inventore ea cumque iusto placeat. Deleniti ratione pariatur eligendi, accusamus ipsam neque quos doloremque itaque quo, excepturi ut aperiam, maiores quia officiis qui aut veritatis blanditiis maxime tempora! Omnis ea illo vitae ad voluptatem cumque laudantium fuga impedit esse, accusamus odit! Facilis odit, sapiente error sunt reiciendis at. Quisquam necessitatibus ipsum quo perferendis mollitia eaque modi fugit, exercitationem velit corporis possimus aliquam omnis. Provident cumque sint ut laboriosam harum quae omnis assumenda.</p>
         </article>
     </main>
+
+    <script>
+        function mudouTamanho (){
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+                }
+        }
+        
+        function clickMenu() {
+            if (items.style.display == 'block') {
+                items.style.display = 'none'
+            } else {
+                items.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
