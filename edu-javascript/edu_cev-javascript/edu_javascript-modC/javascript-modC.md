@@ -5,10 +5,23 @@
 
 window:
 location
-document -> html -> head -> meta / tittle // body -> conteudo
+document -> html -> head -> meta / title
+                 -> body -> conteudo
 history
 
-### Selecionando
+#### Eventos DOM
+=> tudo que possa acontecer com determinada sessão
+
+- mouseenter
+- mousemove
+- mousedown
+- mouseup
+- mouseout
+- click
+
+- addEventListener
+
+#### Selecionando
 - por marca (getElementsByTagName())
 - po ID (getElementByID())
 - por nome (getElementsByName())
