@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+  </head>
+  <body>
+    <h1>Testando Condições - Adivinhe o número</h2>
+    <h3>Insira um número aqui!</h3>
+    <input type="number" name="txtnum" id="txtnum">
+    <input type="submit" value="Enviar" onclick="verifica()">
+
+    <div id="res"></div>
+
+    <script>
+        function verifica(){    
+            var txtnum = document.getElementById('txtnum')
+            var num = Number(txtnum.value)
+            var res = document.getElementById('res')
+
+        while (num > 10) {
+            res.innerHTML = 'Reescreva um número entre 0 e 10!'
+            return
+        }
+
+        if (num < 5) {
+            res.innerHTML = 'Seu número é menor que 5'
+        } else {
+            if (num > 5 && num < 7) {
+                res.innerHTML = 'Seu número é o 6'
+            }
+        }   if (num > 7 && num < 9) {
+                res.innerHTML = 'Seu número é igual a 8'
+        }
+        }
+    </script>
+  </body>
+</html>
