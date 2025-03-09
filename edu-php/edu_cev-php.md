@@ -1,1 +1,0 @@
-# Aprendizados adquiridos no curso de PHP no Curso em Vídeo - Professor Guanabara
