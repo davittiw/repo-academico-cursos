@@ -18,5 +18,5 @@ def ola():
 def novo():
     return render_template('novo.html', titulo='Novo Jogo')
 
-console.log('helloww world')
+console.log('felipe corno')
 app.run()
