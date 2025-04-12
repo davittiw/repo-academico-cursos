@@ -18,4 +18,6 @@ def ola():
 def novo():
     return render_template('novo.html', titulo='Novo Jogo')
 
+
+console.log('FELIPA')
 app.run()
